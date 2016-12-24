@@ -1,0 +1,225 @@
+body,html{height:100%;padding:0px;margin:0px;}
+
+body {
+	background-image: url("../img/Background.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.c {
+	display:block !important;
+}
+
+.a,.b,.c {
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+.d {
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	z-index: -1;
+}
+
+#suelo {
+	position:absolute;
+    bottom:0px;
+	width: 100%;
+}
+
+#divNave {
+	text-align:center;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:20%
+}
+
+#astronauta {
+	display: none;
+}
+
+#nave {
+	height:100%;
+	display: block;
+	margin: auto;
+}
+
+#fuego {
+	position: relative;
+	height: 35%;
+	display: none;
+	bottom: 10%;
+	left: 33.5%;
+}
+
+#pause {
+	position: fixed;
+	right: 10%;
+	top: 10%;
+	height: 12%;
+}
+
+#pause:hover {opacity: 0.5;}
+
+#start {
+	position: absolute;
+	margin: auto;
+	top: 20%;
+	right: 15%;
+	height: 70%;
+}
+
+#start:hover {opacity: 0.5;}
+
+#start2 {
+	position: absolute;
+	bottom: 3%;
+	right: 5%;
+	height: 10%;
+}
+
+#reiniciar {
+	position: absolute;
+	margin: auto;
+	top: 20%;
+	left: 15%;
+	height: 70%;
+}
+
+#reiniciar:hover {opacity: 0.5;}
+
+#reiniciar2 {
+	position: absolute;
+	margin: auto;
+	top: 30%;
+	left: 5%;
+	height: 45%;
+}
+
+#start2:hover {opacity: 0.5;}
+
+#book {
+	position: fixed;
+	right: 10%;
+	top: 25%;
+	height: 12%;
+}
+
+#book:hover {opacity: 0.5;}
+
+#menuoculto {
+	position: absolute;
+	right: 10%;
+	width:80%;
+	height: 100%;
+	display: none;
+}
+
+#menuinstrucciones {
+	position: absolute;
+	top:10%;
+	right: 10%;
+	width:80%;
+	height: 80%;
+	display: none;
+}
+
+#divreiniciar {
+	position: absolute;
+	top: 70%;
+	height: 10%;
+	right: 10%;
+	width:80%;
+	display: inline-block;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+#divtexto {
+	position: absolute;
+	height: 100%;
+	right: 0%;
+	width:100%;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.propiedades {
+	padding: 3px;
+	margin: 10px;
+	height: 7%;
+	width:50%;
+	display: block;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+#divwin {
+	position: absolute;
+	top:40%;
+	right: 10%;
+	width:80%;
+	display: none;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+#divlose {
+	position: absolute;
+	top:40%;
+	right: 10%;
+	width:80%;
+	display: none;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+#central {
+	text-align: center;
+	position: absolute;
+	top:5%;
+	right: 10%;
+	width:80%;
+	display: block;
+	background-color: #DAE3DC;
+	border-style: inset;
+	border-color: #27D048;
+	border-width: 8px;
+	border-radius: 12px;
+}
+
+#about {
+	height: 12%;
+}
+
+#about:hover {opacity: 0.5;}
+
+#hidem,#showm{display:none}

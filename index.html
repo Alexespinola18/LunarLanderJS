@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Lunar Lander</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+ <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+ <script src="js/js.js"></script>
+ <link rel="icon" type="image/png" href="img/favicon.png" />
+</head>
+<body>
+	<div id="divNave">
+		<img id="nave" src="img/cohete.png">
+		<img id="fuego" src="img/fire.gif">
+	</div>
+	<div class="a">
+		<div id="showm">show menu</div>
+		<div class="propiedades">
+			Velocidad: 
+			<span id="velocidad">100</span>
+			m/s
+		</div>
+		<div class="propiedades">
+			Fuel: 
+			<span id="fuel">100</span>
+		</div>
+		<div class="propiedades">
+			Altura: 
+			<span id="altura">70</span>
+			m
+		</div>
+	</div>
+	<div class="b">
+	</div>
+	<div class="c">
+		<div id="hidem">hide menu</div>
+		<a href="#" onclick="mostrarmenu();"><img id="pause" src="img/pause.png"></a>
+		<a href="#" onclick="menuinstrucciones();"><img id="book" src="img/book.png"></a>
+	</div>
+	<div id="menuoculto">
+		<img id="astronauta" src="img/astronauta.png ">
+		<div id="divreiniciar">
+			<a href="#" onclick="volveraljuego();"><img id="start" src="img/start.png"></a>
+			<a href="index.html"><img id="reiniciar" src="img/reiniciar.png"></a>
+		</div>
+	</div>
+	<div id="menuinstrucciones">
+		<img id="astronauta" src="img/astronauta.png ">
+		<div id="divtexto">
+			<p>Para ganar tendra que hacer que la nave aterrice a una vlocidad igual o inferior a 5 m/s</p>
+			<p>Para ello presione cualquier tecla o haga clik para activar los propulsores de la nave y desacelerar</p>
+			<h1>Buena suerte en su aterrizaje</h1>
+			<a href="about.html"><img id="about" src="img/about.png"></a>
+			<a href="#" onclick="volveraljuego2();"><img id="start2" src="img/start.png"></a>
+		</div>
+	</div>
+	<div class="d">
+		<img id="suelo" src="img/SueloLunar.png">
+	</div>
+	<div id="divwin">
+        <h1 >YOU WIN</h1>
+        <a href="index.html"><img id="reiniciar2" src="img/reiniciar.png"></a>
+    </div>
+    <div id="divlose">
+        <h1 >YOU LOSE</h1>
+        <a href="index.html"><img id="reiniciar2" src="img/reiniciar.png"></a>
+    </div>
+</body>
+</html>
