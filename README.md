@@ -1,6 +1,6 @@
 # LunarLanderJS
 
-#Readme:
+# Readme:
 
 Para el fondo he utilizado la imagen que me proporcionaron.
 
